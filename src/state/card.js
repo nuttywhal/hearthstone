@@ -3,6 +3,7 @@ const Zone = require('./enum/zone');
 
 const defaults = Object.freeze({
     id: undefined,
+    name: undefined,
     cost: undefined,
     damage: undefined,
     health: undefined,
@@ -13,6 +14,9 @@ const defaults = Object.freeze({
     divine_shield: false,
     charge: false,
     frozen: false,
+    poisonous: false,
+    lifesteal: false,
+    rush: false,
     type: CardType.INVALID,
     zone: Zone.INVALID,
     zone_position: undefined
